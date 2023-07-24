@@ -24,7 +24,8 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              'gradient-start': '#FF8938',
+              'gradient-end': '#F00',
             },
           },
         },
@@ -71,7 +72,9 @@
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
-            <button class="btn btn-primary">Explore More</button>
+            <button class="btn  bg-gradient-to-r from-gradient-start to-gradient-end">Explore More
+              <i class="fa-brands fa-wpexplorer"></i>
+            </button>
           </div>
         </div>
       </div>
@@ -167,7 +170,7 @@
 
       </section>
       <!-- super client section -->
-      <section class=" flex gap-14 flex-col lg:flex-row gap-12 items-center my-24 rounded-s-xl opacity-100 bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-20">
+      <section class=" flex gap-14 flex-col lg:flex-row gap-12 items-center my-24 rounded-s-xl opacity-100 bg-gradient-to-r from-gradient-start to-gradient-end px-16 py-20">
     <div class="flex  lg:p-28">
         <div  class="space-y-5 ">
             <h2 class="text-5xl font-extrabold text-white">Meet Our Super Clients</h2>
@@ -258,14 +261,14 @@
     </main>
 
     <!-- footer -->
-    <footer  class=" p-10 lg:p-48 bg-base-200 text-base-content">
+    <footer  class=" p-10 lg:px-48 lg:py-10 bg-base-200 text-base-content">
       <div class="flex justify-between my-20">
         <img src="./images/cup.png" alt="">
         <p>
           <span>
             Ready to get strated?
           </span>
-          <button class="btn btn-primary">Get Started</button>
+          <button class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end">Get Started</button>
         </p>
       </div>
       <div class="footer">
@@ -296,13 +299,13 @@
               <span class="label-text">Enter your email address</span>
             </label> 
             <div class="relative">
-              <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
-              <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+              <input type="text" placeholder="Email address" class="p-4 bg-transparent border-b-2  border-black" /> 
+              <button class="btn text-white absolute top-0 right-0 rounded-full bg-gradient-to-r from-gradient-start to-gradient-end"><i class="fa-solid fa-chevron-right "></i></button>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center mt-4">
+      <div class="text-center mt-10">
         <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
       </div>
     </footer>
